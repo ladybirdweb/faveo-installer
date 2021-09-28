@@ -1,0 +1,30 @@
+{
+    "name": "faveo/installer",
+    "description": "Faveo Installer Common Package to install dependencies",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Faveo\\Installer\\": "Faveo/Installer/src/"
+        },
+        "files": [
+            "Faveo/Installer/src/script/apl_core_functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Faveo\\Installer\\": "Faveo/Installer/src/",
+            "Tests\\": "tests/",
+            "Faveo\\Installer\\Tests\\": "Faveo/Installer/src/tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hitesh Kumar",
+            "email": "hitesh.kumar@ladybirdweb.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "orchestra/testbench": "^6.21"
+    }
+}

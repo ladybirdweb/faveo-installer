@@ -1,0 +1,6 @@
+.datepicker {
+   direction: rtl;
+}
+.datepicker.dropdown-menu {
+   right: initial;
+}

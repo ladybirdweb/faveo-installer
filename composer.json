@@ -1,0 +1,43 @@
+{
+    "name": "faveo/installer",
+    "description": "Classic Installer to install the all dependencies",
+    "license": "MIT",
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+
+            "Faveo\\Installer\\": "Faveo/Installer/src/",
+            "App\\": "app/",
+            "Faveo\\Installer\\Tests\\": "Faveo/Installer/src/tests/"
+        },
+        "files": [
+            "Faveo/Installer/src/script/apl_core_functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Faveo\\Installer\\": "Faveo/Installer/src/",
+            "Tests\\": "tests/",
+            "Faveo\\Installer\\Tests\\": "Faveo/Installer/src/tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hitesh Kumar",
+            "email": "hitesh.kumar@ladybirdweb.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^6.21"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Faveo\\Installer\\FaveoInstallerServiceProvider"
+            ]
+        }
+    }
+}

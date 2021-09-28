@@ -1,0 +1,11 @@
+a:4:{s:6:"_token";s:40:"AIhm4N4uasfMOmzDPPk7GEzeijYdRNhu0XMYudwC";s:6:"_flash";a:2:{s:3:"new";a:0:{}s:3:"old";a:1:{i:0;s:7:"message";}}s:9:"_previous";a:1:{s:3:"url";s:64:"https://localhost/package/public/install/environment?is_accept=1";}s:7:"message";a:3:{s:6:"status";s:7:"success";s:7:"message";s:44:"Application has been successfully installed.";s:11:"dbOutputLog";s:569:"Migration table created successfully.
+Migrating: 2014_10_12_000000_create_users_table
+Migrated:  2014_10_12_000000_create_users_table (48.64ms)
+Migrating: 2014_10_12_100000_create_password_resets_table
+Migrated:  2014_10_12_100000_create_password_resets_table (48.10ms)
+Migrating: 2019_08_19_000000_create_failed_jobs_table
+Migrated:  2019_08_19_000000_create_failed_jobs_table (44.21ms)
+Migrating: 2019_12_14_000001_create_personal_access_tokens_table
+Migrated:  2019_12_14_000001_create_personal_access_tokens_table (88.47ms)
+Database seeding completed successfully.
+";}}

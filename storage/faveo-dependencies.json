@@ -1,0 +1,38 @@
+{
+  "extensions": {
+    "optional": [
+      "ldap",
+      "redis",
+      "ionCube Loader",
+      "soap"
+    ],
+    "required": [
+      "curl",
+      "ctype",
+      "imap",
+      "mbstring",
+      "openssl",
+      "tokenizer",
+      "pdo_mysql",
+      "zip",
+      "pdo",
+      "mysqli",
+      "bcmath",
+      "iconv",
+      "XML",
+      "json",
+      "fileinfo",
+      "gd"
+    ]
+  },
+  "requisites": [
+    "Establish connection to Helpdesk License Manager",
+    "PHP Version",
+    "PHP exec function",
+    "max_execution_time",
+    "allow_url_fopen",
+    "cURL",
+    "app_url"
+  ],
+  "min_php_version": "7.3.1"
+}
