@@ -32,7 +32,7 @@ This installer allows users to create a wizard for user to show and take require
    folders.
 
     <code>
-   php artisan vendor:publish —tag=faveo-installer
+   php artisan vendor:publish --tag=faveo-installer
     </code>
 
 <h3>Config Changes for optional features</h3>
